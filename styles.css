@@ -1,0 +1,82 @@
+body {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+span {
+	margin: 5px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.octocat > a > img {
+	width: 400px;
+	border: 2px solid #D3D3D3;
+	border-radius: 5px;
+}
+
+.authors > li > a > img {
+	width: 50px;
+}
+
+.octodex {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.image-footer {
+	display: flex;
+	border-bottom: 2px solid #D3D3D3;
+	justify-content: space-between;
+}
+
+.image-caption {
+	display: flex;
+	justify-content: right;
+}
+
+.image-caption > a {
+	margin-top: 5px;
+	justify-content: right;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.image-number {
+	color: #D3D3D3;
+	font-family: serif;
+	font-weight: bold;
+}
+.image-number::before {
+	content: "#";
+}
+
+.image-caption > span {
+	font-weight: bold;
+	color: gray;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.octocat > a::after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 7px 6px 0 6px;
+	border-color: #D3D3D3 transparent transparent transparent;
+	position: absolute;
+	bottom: 53px;
+	right: 7px;
+
+}
+.octocat {
+	position: relative;
+}
+
