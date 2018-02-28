@@ -25,6 +25,7 @@ a {
 .octodex {
 	display: flex;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 .image-footer {
@@ -78,5 +79,6 @@ ul {
 }
 .octocat {
 	position: relative;
+	margin-top: 50px;
 }
 
